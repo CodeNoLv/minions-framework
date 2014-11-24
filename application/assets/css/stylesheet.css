@@ -1,0 +1,141 @@
+/* Global formating */
+a:link {color:#007A5C; text-decoration:none;}		/* unvisited link */
+a:visited {color:#007A5C; text-decoration:none;}  	/* visited link */
+a:hover {color:#00CC99; text-decoration:none;}  	/* mouse over link */
+a:active {color:#00CC99; text-decoration:none;}  	/* selected link */
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.form
+{
+	padding: 15px;
+	text-align: center;
+	overflow: hidden;		/* Fixes wraping div problem, when sub-divs are floating */
+	margin:auto;
+	width:100%;
+	background-color: #00CC99;
+}
+
+.form select
+{
+	color: #454545;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+	float: left;
+	display: block;
+}
+
+.form input, textarea
+{
+	color: #454545;
+	border: 0px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+	float: left;
+}
+
+.form input[type="submit"]
+{
+	background-color: #A8BCB8;
+	color: #007A5C;
+	cursor:pointer;
+}
+
+.form input[type="submit"]:hover
+{
+	background-color: #A8BCB8;
+	color: #00CC99;
+}
+
+.btn
+{
+	color: #454545;
+	border: 0px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+	background-color: #A8BCB8;
+	color: #007A5C;
+	cursor:pointer;
+}
+
+.btn:hover
+{
+	background-color: #A8BCB8;
+	color: #00CC99;
+}
+
+.content
+{
+	padding: 15px;
+	overflow: hidden;		/* Fixes wraping div problem, when sub-divs are floating */
+	margin:auto;
+	width:100%;
+	background-color: #A8BCB8;
+	color: #454545;
+}
+
+table
+{
+	text-align: center;
+	width: 100%;
+}
+
+table tr
+{
+	border: 0px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+}
+
+.view
+{
+	text-align: center;
+	width: 100%;
+}
+
+.view div
+{
+	border: 0px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+}
+
+#solution
+{
+	display:none;
+}
+
+#waiting_solution
+{
+	display:block;
+	cursor:pointer;
+	color:#007A5C;
+}
+
+#waiting_solution:hover
+{
+	display:block;
+	cursor:pointer;
+	color:#00CC99;
+}
+
+.create_task input, .create_task textarea, .create_task select
+{
+	font-size: 14px;
+	clear:both;
+}
+
+.create_task textarea
+{
+	width: 100%;
+}
+
+
