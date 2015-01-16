@@ -1,5 +1,6 @@
 <?php
 
+	// Need major refactoring
 	// Database abstracting class
 	// Includes basic CRUD functions with mySQL database
 
